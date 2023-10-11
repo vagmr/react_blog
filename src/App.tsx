@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Create from "./views/create";
 import BlogDetail from "./views/blogDetail";
 import NotFound from "./components/notFound";
+import AboutMe from "./views/about";
 /**
  * Renders the main component of the application.
  *  渲染根组件
@@ -27,6 +28,9 @@ const App = () => {
             </Route>
             <Route path="/blog/:id">
               <BlogDetail />
+            </Route>
+            <Route path="/about">
+              <AboutMe />
             </Route>
             <Route path="*">
               <NotFound />

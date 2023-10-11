@@ -15,7 +15,7 @@ const Home = () => {
     return (
         <>
             <nav className="navbar">
-                <h1>{title}</h1>
+                <h1 className="about"><Link to="/about">{title} </Link></h1>
                 <img src={icon} />
                 <div className="links">
                     <Link to="/">Home</Link>
