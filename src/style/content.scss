@@ -1,0 +1,52 @@
+.content {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+
+    // 错误提示弹框
+    .error {
+        position: absolute;
+        top: 80px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: red;
+        font-size: 16px;
+        border-radius: 5px;
+        width: 230px;
+        height: 40px;
+        box-shadow: 0px 2px 4px 4px;
+        text-align: center;
+        line-height: 40px;
+
+    }
+
+    /* blog previews / list */
+    .preview {
+        position: relative;
+        padding: 10px 16px;
+        margin: 20px 0;
+        border-bottom: 1px solid #fafafa;
+
+        a {
+            text-decoration: none;
+        }
+    }
+
+    .preview:hover {
+        box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .preview h2 {
+        font-size: 20px;
+        color: #f1356d;
+        margin-bottom: 8px;
+    }
+
+    .preview p {
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+        font-style: italic;
+
+    }
+}

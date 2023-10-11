@@ -1,0 +1,44 @@
+// 错误提示弹框
+.error {
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: red;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 230px;
+    height: 40px;
+    box-shadow: 0px 2px 4px 4px;
+    text-align: center;
+    line-height: 40px;
+
+}
+
+.detail {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+}
+
+
+.detail-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.detail-author {
+    font-size: 20px;
+    color: #df2c6b;
+    margin-bottom: 10px;
+}
+
+.detail-body {
+    font-family: Arial, sans-serif;
+    /* 选择合适的字体 */
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
