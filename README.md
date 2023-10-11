@@ -5,9 +5,18 @@
 后端:nodejs+mongodb+express
 ## 使用方式
 ### 1.clone项目到本地或者下载压缩包
-```git clone ... ```
+```
+git clone ...
+```
 ### 2.进入目录
+```
+cd ...
+```
 ### 3.安装依赖
-```npm i ```
+```
+npm i
+```
 ### 4.运行项目
-```npm run dev ```
+```
+npm run dev
+```
