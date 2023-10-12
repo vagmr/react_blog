@@ -22,9 +22,15 @@ const BlogDetail = () => {
                     const res = await axios.delete(`${BASE_URL}/${uid}`);
                     setIsDelete(false);
                     console.log(res);
-                    message.success('博客删除成功', 2, () => {
-                        history.replace('/');
-                    });
+                    if (res.data.code === "2001") {
+                        message.error('权限不足', 2, () => {
+                            history.replace('/');
+                        });
+                    } else {
+                        message.success('博客删除成功', 2, () => {
+                            history.replace('/');
+                        });
+                    }
                 } catch (err) {
                     console.log(err);
                     setIsDelete(false);
