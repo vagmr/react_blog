@@ -1,6 +1,5 @@
 .carousel {
     position: relative;
-    margin-left: 30%;
 }
 
 .carousel img {
@@ -11,8 +10,8 @@
 .carousel button {
     position: absolute;
     bottom: -42px;
-    left: 26%;
-    padding: 10px;
+    left: 44.5%;
+    padding: 5px 10px;
     border-radius: 10px;
     cursor: pointer;
 }

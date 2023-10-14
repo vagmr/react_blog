@@ -25,12 +25,13 @@ const App = () => {
     <Router>
       <div className="app">
         <Home />
-        <Carousel images={image} interval={2000} ></Carousel>
+
         <div className="con">
           {/* 切换器 */}
           <Switch>
             {/* 各级路由 */}
             <Route path="/" exact>
+              <Carousel images={image} interval={2000} ></Carousel>
               <Content />
             </Route>
             <Route path="/create">
