@@ -17,9 +17,9 @@ import Carousel from "./components/lunbotu";
  */
 const App = () => {
   const image = [
-    "../public/1.jpg",
-    "../public/2.jpg",
-    "../public/3.jpg",
+    "/1.jpg",
+    "/2.jpg",
+    "/3.jpg",
   ]
   return (
     <Router>
