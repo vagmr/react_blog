@@ -6,6 +6,9 @@ import BlogDetail from "./views/blogDetail";
 import NotFound from "./components/notFound";
 import AboutMe from "./views/about";
 import VFooter from "./views/footer";
+//导入轮播图组件
+import Carousel from "./components/lunbotu";
+
 /**
  * Renders the main component of the application.
  *  渲染根组件
@@ -13,10 +16,16 @@ import VFooter from "./views/footer";
  * 返回根组件的jsx
  */
 const App = () => {
+  const image = [
+    "../public/1.jpg",
+    "../public/2.jpg",
+    "../public/3.jpg",
+  ]
   return (
     <Router>
       <div className="app">
         <Home />
+        <Carousel images={image} interval={2000} ></Carousel>
         <div className="con">
           {/* 切换器 */}
           <Switch>

@@ -1,0 +1,44 @@
+.carousel {
+    position: relative;
+    margin-left: 30%;
+}
+
+.carousel img {
+    width: 600px;
+    height: 400px;
+}
+
+.carousel button {
+    position: absolute;
+    bottom: -42px;
+    left: 26%;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.carousel button:hover {
+    background-color: #f1356d;
+    transform: translateY(-5px);
+    box-shadow: 1px 1px 4px 4px;
+}
+
+.carousel-dots {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.dot {
+    display: inline-block;
+    width: 15px;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #f15343;
+    /* 活动页的颜色 */
+}
