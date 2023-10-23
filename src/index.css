@@ -25,19 +25,41 @@
         font-size: 14px;
     }
 
-
-
     .navbar .links {
         /* 其他适配样式 */
         font-size: 14px;
         margin: 0;
         padding: 0;
+        margin-left: 3%;
     }
 
     .carousel img {
         width: 100%;
         /* 让图像宽度适应屏幕宽度 */
-        height: auto;
+        height: 240px;
+    }
+
+    .con .content .preview {
+        padding: 12.5px 16px;
+        margin: 25px 0;
+    }
+
+    .content .preview p {
+        bottom: 2px;
+    }
+
+    .con .content .preview h2 {
+        font-size: 15px;
+    }
+
+    .aboutMe {
+        position: relative;
+    }
+
+    .aboutMe .github {
+        position: absolute;
+        left: 28%;
+        top: 0.2%;
     }
 
 }
