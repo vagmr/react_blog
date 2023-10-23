@@ -12,3 +12,32 @@
     margin: 20px auto;
     padding: 20px;
 }
+
+/* 当屏幕宽度小于600px时应用以下样式 */
+@media (max-width:600px) {
+    .navbar {
+        padding: 10px;
+        /* 其他适配样式 */
+    }
+
+    .navbar h1 {
+        color: #333;
+        font-size: 14px;
+    }
+
+
+
+    .navbar .links {
+        /* 其他适配样式 */
+        font-size: 14px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .carousel img {
+        width: 100%;
+        /* 让图像宽度适应屏幕宽度 */
+        height: auto;
+    }
+
+}
